@@ -1,0 +1,30 @@
+{
+  "name": "speedt-amq",
+  "version": "0.1.62",
+  "description": "speedt-amq",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "dependencies": {
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "should": ">=0.0.1",
+    "mocha": ">=0.0.1",
+    "jscoverage": ">=0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/speedt/speedt-amq.git"
+  },
+  "keywords": [
+    "activemq"
+  ],
+  "author": "speedt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/speedt/speedt-amq/issues"
+  },
+  "homepage": "https://github.com/speedt/speedt-amq"
+}
