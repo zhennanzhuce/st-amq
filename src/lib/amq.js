@@ -61,7 +61,7 @@ exports.send = function(dest, params, data, cb){
 
           for(let i in params){
             let fn = params[i];
-            client.subscribe(i, fn.bind(null, self.send.bind(self)))
+            if(client) client.subscribe(i, fn.bind(null, self.send.bind(self)))
           }
 
         }, err => {
